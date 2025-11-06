@@ -1,0 +1,45 @@
+data:
+  train: data/train.csv
+  test: data/test.csv
+
+training:
+  # Basic training parameters
+  epochs: 100
+  batch_size: 256
+  learning_rate: 0.001
+  weight_decay: 0.0
+
+  # Cross-validation parameters
+  n_folds: 5
+  random_state: 42
+
+  # Early stopping parameters
+  patience: 10
+
+  # Learning rate scheduling parameters
+  lr_factor: 0.5
+  lr_patience: 3
+  min_lr: 0.000001
+
+  # Data preprocessing parameters
+  use_log_transform: true
+  normalize_features: true
+
+  # Legacy parameters (for backward compatibility)
+  momentum: 0.9
+
+experiments:
+  # Model architectures to test
+  architectures: ['simple', 'deep', 'wide', 'residual', 'adaptive']
+
+  # Dropout rates to test
+  dropout_rates: [0.0, 0.2]
+
+  # Learning rates to test
+  learning_rates: [0.0005, 0.001, 0.002]
+
+  # Batch sizes to test
+  batch_sizes: [256]
+
+  # Output directory for experiments
+  output_dir: experiments

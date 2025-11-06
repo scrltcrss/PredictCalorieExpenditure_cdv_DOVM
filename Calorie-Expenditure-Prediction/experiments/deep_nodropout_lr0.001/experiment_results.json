@@ -1,0 +1,36 @@
+{
+  "name": "deep_nodropout_lr0.001",
+  "config": {
+    "name": "deep_nodropout_lr0.001",
+    "architecture": "deep",
+    "dropout": 0.0,
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "weight_decay": 0.0
+  },
+  "num_parameters": 84353,
+  "overall_rmse": 0.09126159487470085,
+  "overall_rmsle": 0.09126159487470085,
+  "overall_mape": 0.07764608819574526,
+  "fold_results": [
+    {
+      "fold": 1,
+      "rmse": 0.09160734963589576,
+      "mae": 0.07329018414020538,
+      "rmsle": 0.09160734963589576,
+      "mape": 0.07892068475484848,
+      "r2": 0.9909679293632507,
+      "best_val_loss": 0.018353288993239403
+    },
+    {
+      "fold": 2,
+      "rmse": 0.09091452869663881,
+      "mae": 0.07075615972280502,
+      "rmsle": 0.09091452869663881,
+      "mape": 0.07637149095535278,
+      "r2": 0.9910788536071777,
+      "best_val_loss": 0.0201908890157938
+    }
+  ],
+  "training_time": 28.895119190216064
+}

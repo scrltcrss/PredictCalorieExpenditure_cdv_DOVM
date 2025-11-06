@@ -1,0 +1,39 @@
+{
+  "overall_rmse": 0.10962918514905426,
+  "overall_rmsle": 0.10962918514905426,
+  "overall_mape": 0.07997831019792874,
+  "fold_results": [
+    {
+      "fold": 1,
+      "rmse": 0.10778613752978039,
+      "mae": 0.06305697560310364,
+      "rmsle": 0.10778613752978039,
+      "mape": 0.07486677169799805,
+      "r2": 0.9874958992004395,
+      "best_val_loss": 0.033735133707523346
+    },
+    {
+      "fold": 2,
+      "rmse": 0.11144175920594689,
+      "mae": 0.0735425353050232,
+      "rmsle": 0.11144175920594689,
+      "mape": 0.08508984744548798,
+      "r2": 0.9865955114364624,
+      "best_val_loss": 0.028694093227386475
+    }
+  ],
+  "config": {
+    "epochs": 5,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "patience": 10,
+    "lr_factor": 0.5,
+    "lr_patience": 3,
+    "min_lr": 1e-06,
+    "n_folds": 2,
+    "random_state": 42,
+    "use_log_transform": true,
+    "normalize_features": true
+  }
+}

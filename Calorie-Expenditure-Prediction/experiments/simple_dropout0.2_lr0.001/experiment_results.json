@@ -1,0 +1,36 @@
+{
+  "name": "simple_dropout0.2_lr0.001",
+  "config": {
+    "name": "simple_dropout0.2_lr0.001",
+    "architecture": "simple",
+    "dropout": 0.2,
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "weight_decay": 0.0
+  },
+  "num_parameters": 4737,
+  "overall_rmse": 0.11394004932351061,
+  "overall_rmsle": 0.11394004932351061,
+  "overall_mape": 0.08292148348034556,
+  "fold_results": [
+    {
+      "fold": 1,
+      "rmse": 0.13205006482297152,
+      "mae": 0.08908091485500336,
+      "rmsle": 0.13205006482297152,
+      "mape": 0.10227860510349274,
+      "r2": 0.9812326431274414,
+      "best_val_loss": 0.030794257298111916
+    },
+    {
+      "fold": 2,
+      "rmse": 0.0923441945305725,
+      "mae": 0.057641781866550446,
+      "rmsle": 0.0923441945305725,
+      "mape": 0.06356436759233475,
+      "r2": 0.9907960891723633,
+      "best_val_loss": 0.026686489582061768
+    }
+  ],
+  "training_time": 24.62119483947754
+}

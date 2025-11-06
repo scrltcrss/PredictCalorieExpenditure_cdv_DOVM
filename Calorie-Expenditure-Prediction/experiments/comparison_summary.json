@@ -1,0 +1,440 @@
+{
+  "num_experiments": 12,
+  "best_experiment": "simple_nodropout_lr0.0005",
+  "best_mape": 0.047154052831330645,
+  "best_rmse": 0.07055711748498043,
+  "experiments": [
+    {
+      "name": "simple_nodropout_lr0.0005",
+      "config": {
+        "name": "simple_nodropout_lr0.0005",
+        "architecture": "simple",
+        "dropout": 0.0,
+        "learning_rate": 0.0005,
+        "batch_size": 256,
+        "weight_decay": 0.0
+      },
+      "num_parameters": 4737,
+      "overall_rmse": 0.07055711748498043,
+      "overall_rmsle": 0.07055711748498043,
+      "overall_mape": 0.047154052831330645,
+      "fold_results": [
+        {
+          "fold": 1,
+          "rmse": 0.07488334643631778,
+          "mae": 0.04941326007246971,
+          "rmsle": 0.07488334643631778,
+          "mape": 0.0521412193775177,
+          "r2": 0.9939647316932678,
+          "best_val_loss": 0.020252585411071777
+        },
+        {
+          "fold": 2,
+          "rmse": 0.06594769196250348,
+          "mae": 0.03957858681678772,
+          "rmsle": 0.06594769196250348,
+          "mape": 0.04216688498854637,
+          "r2": 0.9953058958053589,
+          "best_val_loss": 0.018626803532242775
+        }
+      ],
+      "training_time": 24.73789381980896
+    },
+    {
+      "name": "deep_nodropout_lr0.0005",
+      "config": {
+        "name": "deep_nodropout_lr0.0005",
+        "architecture": "deep",
+        "dropout": 0.0,
+        "learning_rate": 0.0005,
+        "batch_size": 256,
+        "weight_decay": 0.0
+      },
+      "num_parameters": 84353,
+      "overall_rmse": 0.0717358781225891,
+      "overall_rmsle": 0.0717358781225891,
+      "overall_mape": 0.049904120413441985,
+      "fold_results": [
+        {
+          "fold": 1,
+          "rmse": 0.07505424383176656,
+          "mae": 0.04934266582131386,
+          "rmsle": 0.07505424383176656,
+          "mape": 0.051980841904878616,
+          "r2": 0.9939371347427368,
+          "best_val_loss": 0.020039381459355354
+        },
+        {
+          "fold": 2,
+          "rmse": 0.06825637550889119,
+          "mae": 0.04372018203139305,
+          "rmsle": 0.06825637550889119,
+          "mape": 0.04782739654183388,
+          "r2": 0.9949714541435242,
+          "best_val_loss": 0.018850700929760933
+        }
+      ],
+      "training_time": 30.58986783027649
+    },
+    {
+      "name": "deep_dropout0.2_lr0.002",
+      "config": {
+        "name": "deep_dropout0.2_lr0.002",
+        "architecture": "deep",
+        "dropout": 0.2,
+        "learning_rate": 0.002,
+        "batch_size": 256,
+        "weight_decay": 0.0
+      },
+      "num_parameters": 84353,
+      "overall_rmse": 0.07402404185545197,
+      "overall_rmsle": 0.07402404185545197,
+      "overall_mape": 0.052578049219127086,
+      "fold_results": [
+        {
+          "fold": 1,
+          "rmse": 0.07534712168776685,
+          "mae": 0.05310836806893349,
+          "rmsle": 0.07534712786797995,
+          "mape": 0.05546757951378822,
+          "r2": 0.9938897490501404,
+          "best_val_loss": 0.020555291324853897
+        },
+        {
+          "fold": 2,
+          "rmse": 0.0726768770727322,
+          "mae": 0.04614468663930893,
+          "rmsle": 0.0726768770727322,
+          "mape": 0.049688514322042465,
+          "r2": 0.994299054145813,
+          "best_val_loss": 0.020122846588492393
+        }
+      ],
+      "training_time": 30.27898645401001
+    },
+    {
+      "name": "simple_nodropout_lr0.001",
+      "config": {
+        "name": "simple_nodropout_lr0.001",
+        "architecture": "simple",
+        "dropout": 0.0,
+        "learning_rate": 0.001,
+        "batch_size": 256,
+        "weight_decay": 0.0
+      },
+      "num_parameters": 4737,
+      "overall_rmse": 0.07627047973703961,
+      "overall_rmsle": 0.07627047973703961,
+      "overall_mape": 0.05643364586050316,
+      "fold_results": [
+        {
+          "fold": 1,
+          "rmse": 0.08387506657187724,
+          "mae": 0.06493336707353592,
+          "rmsle": 0.08387506657187724,
+          "mape": 0.06603443622589111,
+          "r2": 0.9924283027648926,
+          "best_val_loss": 0.020112067461013794
+        },
+        {
+          "fold": 2,
+          "rmse": 0.06781847375386002,
+          "mae": 0.04296915605664253,
+          "rmsle": 0.06781847375386002,
+          "mape": 0.0468328557908535,
+          "r2": 0.9950357675552368,
+          "best_val_loss": 0.01910773292183876
+        }
+      ],
+      "training_time": 24.549669981002808
+    },
+    {
+      "name": "deep_nodropout_lr0.002",
+      "config": {
+        "name": "deep_nodropout_lr0.002",
+        "architecture": "deep",
+        "dropout": 0.0,
+        "learning_rate": 0.002,
+        "batch_size": 256,
+        "weight_decay": 0.0
+      },
+      "num_parameters": 84353,
+      "overall_rmse": 0.0829096124871675,
+      "overall_rmsle": 0.0829096124871675,
+      "overall_mape": 0.06107562512998837,
+      "fold_results": [
+        {
+          "fold": 1,
+          "rmse": 0.09520212724326549,
+          "mae": 0.0709914118051529,
+          "rmsle": 0.09520212724326549,
+          "mape": 0.07621252536773682,
+          "r2": 0.9902451634407043,
+          "best_val_loss": 0.023282775655388832
+        },
+        {
+          "fold": 2,
+          "rmse": 0.06844386261165343,
+          "mae": 0.04128722473978996,
+          "rmsle": 0.06844386261165343,
+          "mape": 0.04593872278928757,
+          "r2": 0.9949437975883484,
+          "best_val_loss": 0.02010689675807953
+        }
+      ],
+      "training_time": 25.941320657730103
+    },
+    {
+      "name": "simple_nodropout_lr0.002",
+      "config": {
+        "name": "simple_nodropout_lr0.002",
+        "architecture": "simple",
+        "dropout": 0.0,
+        "learning_rate": 0.002,
+        "batch_size": 256,
+        "weight_decay": 0.0
+      },
+      "num_parameters": 4737,
+      "overall_rmse": 0.08876143845162394,
+      "overall_rmsle": 0.08876143845162394,
+      "overall_mape": 0.06932728153028554,
+      "fold_results": [
+        {
+          "fold": 1,
+          "rmse": 0.08842112128365744,
+          "mae": 0.06307283788919449,
+          "rmsle": 0.08842112128365744,
+          "mape": 0.06872063875198364,
+          "r2": 0.9915853142738342,
+          "best_val_loss": 0.01932527683675289
+        },
+        {
+          "fold": 2,
+          "rmse": 0.08910045818763344,
+          "mae": 0.06815662235021591,
+          "rmsle": 0.08910045818763344,
+          "mape": 0.0699339210987091,
+          "r2": 0.9914313554763794,
+          "best_val_loss": 0.018496360629796982
+        }
+      ],
+      "training_time": 25.50725746154785
+    },
+    {
+      "name": "simple_dropout0.2_lr0.002",
+      "config": {
+        "name": "simple_dropout0.2_lr0.002",
+        "architecture": "simple",
+        "dropout": 0.2,
+        "learning_rate": 0.002,
+        "batch_size": 256,
+        "weight_decay": 0.0
+      },
+      "num_parameters": 4737,
+      "overall_rmse": 0.1026457724278396,
+      "overall_rmsle": 0.1026457724278396,
+      "overall_mape": 0.07690820989885022,
+      "fold_results": [
+        {
+          "fold": 1,
+          "rmse": 0.11123478473331196,
+          "mae": 0.08508095145225525,
+          "rmsle": 0.11123478473331196,
+          "mape": 0.08975701779127121,
+          "r2": 0.9866829514503479,
+          "best_val_loss": 0.02335485816001892
+        },
+        {
+          "fold": 2,
+          "rmse": 0.09326913814091979,
+          "mae": 0.055500250309705734,
+          "rmsle": 0.09326913814091979,
+          "mape": 0.06405940651893616,
+          "r2": 0.9906107783317566,
+          "best_val_loss": 0.02666485495865345
+        }
+      ],
+      "training_time": 26.45968270301819
+    },
+    {
+      "name": "deep_nodropout_lr0.001",
+      "config": {
+        "name": "deep_nodropout_lr0.001",
+        "architecture": "deep",
+        "dropout": 0.0,
+        "learning_rate": 0.001,
+        "batch_size": 256,
+        "weight_decay": 0.0
+      },
+      "num_parameters": 84353,
+      "overall_rmse": 0.09126159487470085,
+      "overall_rmsle": 0.09126159487470085,
+      "overall_mape": 0.07764608819574526,
+      "fold_results": [
+        {
+          "fold": 1,
+          "rmse": 0.09160734963589576,
+          "mae": 0.07329018414020538,
+          "rmsle": 0.09160734963589576,
+          "mape": 0.07892068475484848,
+          "r2": 0.9909679293632507,
+          "best_val_loss": 0.018353288993239403
+        },
+        {
+          "fold": 2,
+          "rmse": 0.09091452869663881,
+          "mae": 0.07075615972280502,
+          "rmsle": 0.09091452869663881,
+          "mape": 0.07637149095535278,
+          "r2": 0.9910788536071777,
+          "best_val_loss": 0.0201908890157938
+        }
+      ],
+      "training_time": 28.895119190216064
+    },
+    {
+      "name": "deep_dropout0.2_lr0.001",
+      "config": {
+        "name": "deep_dropout0.2_lr0.001",
+        "architecture": "deep",
+        "dropout": 0.2,
+        "learning_rate": 0.001,
+        "batch_size": 256,
+        "weight_decay": 0.0
+      },
+      "num_parameters": 84353,
+      "overall_rmse": 0.10962918514905426,
+      "overall_rmsle": 0.10962918514905426,
+      "overall_mape": 0.07997831019792874,
+      "fold_results": [
+        {
+          "fold": 1,
+          "rmse": 0.10778613752978039,
+          "mae": 0.06305697560310364,
+          "rmsle": 0.10778613752978039,
+          "mape": 0.07486677169799805,
+          "r2": 0.9874958992004395,
+          "best_val_loss": 0.033735133707523346
+        },
+        {
+          "fold": 2,
+          "rmse": 0.11144175920594689,
+          "mae": 0.0735425353050232,
+          "rmsle": 0.11144175920594689,
+          "mape": 0.08508984744548798,
+          "r2": 0.9865955114364624,
+          "best_val_loss": 0.028694093227386475
+        }
+      ],
+      "training_time": 30.397173404693604
+    },
+    {
+      "name": "simple_dropout0.2_lr0.001",
+      "config": {
+        "name": "simple_dropout0.2_lr0.001",
+        "architecture": "simple",
+        "dropout": 0.2,
+        "learning_rate": 0.001,
+        "batch_size": 256,
+        "weight_decay": 0.0
+      },
+      "num_parameters": 4737,
+      "overall_rmse": 0.11394004932351061,
+      "overall_rmsle": 0.11394004932351061,
+      "overall_mape": 0.08292148348034556,
+      "fold_results": [
+        {
+          "fold": 1,
+          "rmse": 0.13205006482297152,
+          "mae": 0.08908091485500336,
+          "rmsle": 0.13205006482297152,
+          "mape": 0.10227860510349274,
+          "r2": 0.9812326431274414,
+          "best_val_loss": 0.030794257298111916
+        },
+        {
+          "fold": 2,
+          "rmse": 0.0923441945305725,
+          "mae": 0.057641781866550446,
+          "rmsle": 0.0923441945305725,
+          "mape": 0.06356436759233475,
+          "r2": 0.9907960891723633,
+          "best_val_loss": 0.026686489582061768
+        }
+      ],
+      "training_time": 24.62119483947754
+    },
+    {
+      "name": "simple_dropout0.2_lr0.0005",
+      "config": {
+        "name": "simple_dropout0.2_lr0.0005",
+        "architecture": "simple",
+        "dropout": 0.2,
+        "learning_rate": 0.0005,
+        "batch_size": 256,
+        "weight_decay": 0.0
+      },
+      "num_parameters": 4737,
+      "overall_rmse": 0.1180281639641895,
+      "overall_rmsle": 0.1180281639641895,
+      "overall_mape": 0.08341728002105031,
+      "fold_results": [
+        {
+          "fold": 1,
+          "rmse": 0.09394113606708293,
+          "mae": 0.05521123483777046,
+          "rmsle": 0.09394113606708293,
+          "mape": 0.06344743072986603,
+          "r2": 0.990501880645752,
+          "best_val_loss": 0.028393767774105072
+        },
+        {
+          "fold": 2,
+          "rmse": 0.13797230962176932,
+          "mae": 0.08695529401302338,
+          "rmsle": 0.13797230962176932,
+          "mape": 0.10338713228702545,
+          "r2": 0.9794535040855408,
+          "best_val_loss": 0.036212071776390076
+        }
+      ],
+      "training_time": 25.492096185684204
+    },
+    {
+      "name": "deep_dropout0.2_lr0.0005",
+      "config": {
+        "name": "deep_dropout0.2_lr0.0005",
+        "architecture": "deep",
+        "dropout": 0.2,
+        "learning_rate": 0.0005,
+        "batch_size": 256,
+        "weight_decay": 0.0
+      },
+      "num_parameters": 84353,
+      "overall_rmse": 0.12378098278102982,
+      "overall_rmsle": 0.12378098278102982,
+      "overall_mape": 0.09100150755521302,
+      "fold_results": [
+        {
+          "fold": 1,
+          "rmse": 0.13161212856080173,
+          "mae": 0.08282844722270966,
+          "rmsle": 0.13161212856080173,
+          "mape": 0.09942396730184555,
+          "r2": 0.9813568592071533,
+          "best_val_loss": 0.032478801906108856
+        },
+        {
+          "fold": 2,
+          "rmse": 0.11541971560552654,
+          "mae": 0.06819263100624084,
+          "rmsle": 0.11541971560552654,
+          "mape": 0.08257905393838882,
+          "r2": 0.9856215119361877,
+          "best_val_loss": 0.031813815236091614
+        }
+      ],
+      "training_time": 28.144530296325684
+    }
+  ]
+}
